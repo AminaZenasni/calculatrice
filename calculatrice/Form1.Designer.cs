@@ -41,35 +41,39 @@
             this.BTN8 = new System.Windows.Forms.Button();
             this.BTN9 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.BTN0 = new System.Windows.Forms.Button();
+            this.EGALE = new System.Windows.Forms.Button();
+            this.BTNC = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BTN5
             // 
-            this.BTN5.Location = new System.Drawing.Point(137, 129);
+            this.BTN5.Location = new System.Drawing.Point(183, 159);
+            this.BTN5.Margin = new System.Windows.Forms.Padding(4);
             this.BTN5.Name = "BTN5";
-            this.BTN5.Size = new System.Drawing.Size(75, 34);
+            this.BTN5.Size = new System.Drawing.Size(100, 42);
             this.BTN5.TabIndex = 0;
             this.BTN5.Text = "5";
             this.BTN5.UseVisualStyleBackColor = true;
-            this.BTN5.Click += new System.EventHandler(this.button1_Click);
+            this.BTN5.Click += new System.EventHandler(this.BTN5_Click);
             // 
             // BTN4
             // 
-            this.BTN4.Location = new System.Drawing.Point(137, 89);
+            this.BTN4.Location = new System.Drawing.Point(183, 110);
+            this.BTN4.Margin = new System.Windows.Forms.Padding(4);
             this.BTN4.Name = "BTN4";
-            this.BTN4.Size = new System.Drawing.Size(75, 36);
+            this.BTN4.Size = new System.Drawing.Size(100, 44);
             this.BTN4.TabIndex = 1;
             this.BTN4.Text = "4";
             this.BTN4.UseVisualStyleBackColor = true;
+            this.BTN4.Click += new System.EventHandler(this.BTN4_Click);
             // 
             // BTN3
             // 
-            this.BTN3.Location = new System.Drawing.Point(218, 169);
+            this.BTN3.Location = new System.Drawing.Point(291, 208);
+            this.BTN3.Margin = new System.Windows.Forms.Padding(4);
             this.BTN3.Name = "BTN3";
-            this.BTN3.Size = new System.Drawing.Size(75, 29);
+            this.BTN3.Size = new System.Drawing.Size(100, 36);
             this.BTN3.TabIndex = 2;
             this.BTN3.Text = "3";
             this.BTN3.UseVisualStyleBackColor = true;
@@ -77,19 +81,21 @@
             // 
             // BTN1
             // 
-            this.BTN1.Location = new System.Drawing.Point(218, 89);
+            this.BTN1.Location = new System.Drawing.Point(291, 110);
+            this.BTN1.Margin = new System.Windows.Forms.Padding(4);
             this.BTN1.Name = "BTN1";
-            this.BTN1.Size = new System.Drawing.Size(75, 34);
+            this.BTN1.Size = new System.Drawing.Size(100, 42);
             this.BTN1.TabIndex = 3;
             this.BTN1.Text = "1";
             this.BTN1.UseVisualStyleBackColor = true;
-            this.BTN1.Click += new System.EventHandler(this.button4_Click);
+            this.BTN1.Click += new System.EventHandler(this.BTN1_Click);
             // 
             // BTN2
             // 
-            this.BTN2.Location = new System.Drawing.Point(218, 129);
+            this.BTN2.Location = new System.Drawing.Point(291, 159);
+            this.BTN2.Margin = new System.Windows.Forms.Padding(4);
             this.BTN2.Name = "BTN2";
-            this.BTN2.Size = new System.Drawing.Size(75, 34);
+            this.BTN2.Size = new System.Drawing.Size(100, 42);
             this.BTN2.TabIndex = 4;
             this.BTN2.Text = "2";
             this.BTN2.UseVisualStyleBackColor = true;
@@ -97,18 +103,21 @@
             // 
             // BTN6
             // 
-            this.BTN6.Location = new System.Drawing.Point(137, 169);
+            this.BTN6.Location = new System.Drawing.Point(183, 208);
+            this.BTN6.Margin = new System.Windows.Forms.Padding(4);
             this.BTN6.Name = "BTN6";
-            this.BTN6.Size = new System.Drawing.Size(75, 29);
+            this.BTN6.Size = new System.Drawing.Size(100, 36);
             this.BTN6.TabIndex = 5;
             this.BTN6.Text = "6";
             this.BTN6.UseVisualStyleBackColor = true;
+            this.BTN6.Click += new System.EventHandler(this.BTN6_Click);
             // 
             // SIMA
             // 
-            this.SIMA.Location = new System.Drawing.Point(299, 136);
+            this.SIMA.Location = new System.Drawing.Point(399, 167);
+            this.SIMA.Margin = new System.Windows.Forms.Padding(4);
             this.SIMA.Name = "SIMA";
-            this.SIMA.Size = new System.Drawing.Size(75, 29);
+            this.SIMA.Size = new System.Drawing.Size(100, 36);
             this.SIMA.TabIndex = 6;
             this.SIMA.Text = "÷";
             this.SIMA.UseVisualStyleBackColor = true;
@@ -116,9 +125,10 @@
             // 
             // MOINS
             // 
-            this.MOINS.Location = new System.Drawing.Point(299, 96);
+            this.MOINS.Location = new System.Drawing.Point(399, 118);
+            this.MOINS.Margin = new System.Windows.Forms.Padding(4);
             this.MOINS.Name = "MOINS";
-            this.MOINS.Size = new System.Drawing.Size(75, 34);
+            this.MOINS.Size = new System.Drawing.Size(100, 42);
             this.MOINS.TabIndex = 7;
             this.MOINS.Text = "-";
             this.MOINS.UseVisualStyleBackColor = true;
@@ -126,9 +136,10 @@
             // 
             // PLUS
             // 
-            this.PLUS.Location = new System.Drawing.Point(299, 58);
+            this.PLUS.Location = new System.Drawing.Point(399, 71);
+            this.PLUS.Margin = new System.Windows.Forms.Padding(4);
             this.PLUS.Name = "PLUS";
-            this.PLUS.Size = new System.Drawing.Size(75, 32);
+            this.PLUS.Size = new System.Drawing.Size(100, 39);
             this.PLUS.TabIndex = 8;
             this.PLUS.Text = "+";
             this.PLUS.UseVisualStyleBackColor = true;
@@ -136,18 +147,21 @@
             // 
             // BTN7
             // 
-            this.BTN7.Location = new System.Drawing.Point(56, 89);
+            this.BTN7.Location = new System.Drawing.Point(75, 110);
+            this.BTN7.Margin = new System.Windows.Forms.Padding(4);
             this.BTN7.Name = "BTN7";
-            this.BTN7.Size = new System.Drawing.Size(75, 36);
+            this.BTN7.Size = new System.Drawing.Size(100, 44);
             this.BTN7.TabIndex = 9;
             this.BTN7.Text = "7";
             this.BTN7.UseVisualStyleBackColor = true;
+            this.BTN7.Click += new System.EventHandler(this.BTN7_Click);
             // 
             // BTN8
             // 
-            this.BTN8.Location = new System.Drawing.Point(56, 129);
+            this.BTN8.Location = new System.Drawing.Point(75, 159);
+            this.BTN8.Margin = new System.Windows.Forms.Padding(4);
             this.BTN8.Name = "BTN8";
-            this.BTN8.Size = new System.Drawing.Size(75, 34);
+            this.BTN8.Size = new System.Drawing.Size(100, 42);
             this.BTN8.TabIndex = 10;
             this.BTN8.Text = "8";
             this.BTN8.UseVisualStyleBackColor = true;
@@ -155,12 +169,37 @@
             // 
             // BTN9
             // 
-            this.BTN9.Location = new System.Drawing.Point(56, 169);
+            this.BTN9.Location = new System.Drawing.Point(75, 208);
+            this.BTN9.Margin = new System.Windows.Forms.Padding(4);
             this.BTN9.Name = "BTN9";
-            this.BTN9.Size = new System.Drawing.Size(75, 29);
+            this.BTN9.Size = new System.Drawing.Size(100, 36);
             this.BTN9.TabIndex = 11;
             this.BTN9.Text = "9";
             this.BTN9.UseVisualStyleBackColor = true;
+            this.BTN9.Click += new System.EventHandler(this.BTN9_Click);
+            // 
+           
+            // BTN0
+            // 
+            this.BTN0.Location = new System.Drawing.Point(291, 71);
+            this.BTN0.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN0.Name = "BTN0";
+            this.BTN0.Size = new System.Drawing.Size(100, 34);
+            this.BTN0.TabIndex = 13;
+            this.BTN0.Text = "0";
+            this.BTN0.UseVisualStyleBackColor = true;
+            this.BTN0.Click += new System.EventHandler(this.BTN0_Click_1);
+            // 
+            // EGALE
+            // 
+            this.EGALE.Location = new System.Drawing.Point(399, 210);
+            this.EGALE.Margin = new System.Windows.Forms.Padding(4);
+            this.EGALE.Name = "EGALE";
+            this.EGALE.Size = new System.Drawing.Size(100, 34);
+            this.EGALE.TabIndex = 14;
+            this.EGALE.Text = "=";
+            this.EGALE.UseVisualStyleBackColor = true;
+            this.EGALE.Click += new System.EventHandler(this.EGALE_Click);
             // 
             // textBox1
             // 
@@ -169,42 +208,26 @@
             this.textBox1.Size = new System.Drawing.Size(315, 20);
             this.textBox1.TabIndex = 12;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            //
+            // BTNC
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(218, 58);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 28);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "0";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(299, 171);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 28);
-            this.button2.TabIndex = 14;
-            this.button2.Text = "=";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(137, 58);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 28);
-            this.button3.TabIndex = 15;
-            this.button3.Text = "C";
-            this.button3.UseVisualStyleBackColor = true;
+            this.BTNC.Location = new System.Drawing.Point(183, 71);
+            this.BTNC.Margin = new System.Windows.Forms.Padding(4);
+            this.BTNC.Name = "BTNC";
+            this.BTNC.Size = new System.Drawing.Size(100, 34);
+            this.BTNC.TabIndex = 15;
+            this.BTNC.Text = "C";
+            this.BTNC.UseVisualStyleBackColor = true;
+            this.BTNC.Click += new System.EventHandler(this.BTNC_Click);
             // 
             // calculatrice
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(383, 244);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(511, 300);
+            this.Controls.Add(this.BTNC);
+            this.Controls.Add(this.EGALE);
+            this.Controls.Add(this.BTN0);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.BTN9);
             this.Controls.Add(this.BTN8);
@@ -218,6 +241,7 @@
             this.Controls.Add(this.BTN3);
             this.Controls.Add(this.BTN4);
             this.Controls.Add(this.BTN5);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "calculatrice";
             this.Text = "calculatrice";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -241,9 +265,9 @@
         private System.Windows.Forms.Button BTN8;
         private System.Windows.Forms.Button BTN9;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BTN0;
+        private System.Windows.Forms.Button EGALE;
+        private System.Windows.Forms.Button BTNC;
     }
 }
 

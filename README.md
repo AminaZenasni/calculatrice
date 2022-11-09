@@ -1,2 +1,3 @@
 # calculatrice
-![CALCULATOR](https://user-images.githubusercontent.com/116212206/200944170-ced92271-b79b-429b-a7a4-b0aec835deb2.png)
+
+![CAL](https://user-images.githubusercontent.com/116212206/200944497-22708240-b0a9-4e8a-86ab-0471d5f0b991.png)
