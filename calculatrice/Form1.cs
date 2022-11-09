@@ -72,5 +72,40 @@ namespace calculatrice
             FirstNumber = Convert.ToDouble(textBox1.Text);
             Op = "/";
         }
+         private void button2_Click(object sender, EventArgs e)
+        {
+            double SecondNumber;
+            double Result;
+
+            SecondNumber = Convert.ToDouble(textBox1.Text);
+
+            if (Op == "+")
+            {
+                Result = (FirstNumber + SecondNumber);
+                textBox1.Text = Convert.ToString(Result);
+                FirstNumber = Result;
+            }
+            if (Op=="-")
+            {
+                Result = (FirstNumber - SecondNumber);
+                textBox1.Text = Convert.ToString(Result);
+                FirstNumber = Result;
+            }
+
+            if (Op == "/")
+            {
+                if (SecondNumber == 0)
+                {
+                    textBox1.Text = "Cannot divide by zero";
+
+                }
+                else
+                {
+                    Result = (FirstNumber / SecondNumber);
+                    textBox1.Text = Convert.ToString(Result);
+                    FirstNumber = Result;
+                }
+            }
+        }
     }
 }
