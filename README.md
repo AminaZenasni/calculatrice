@@ -1,2 +1,2 @@
 # calculatrice
-![Capture d’écran 2022-11-08 120513](https://user-images.githubusercontent.com/116212206/200943444-c6de65f7-25e4-4a55-86df-0fff39f13582.png)
+![CALCULATOR](https://user-images.githubusercontent.com/116212206/200944170-ced92271-b79b-429b-a7a4-b0aec835deb2.png)
