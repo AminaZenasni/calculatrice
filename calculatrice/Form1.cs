@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,21 +24,21 @@ namespace calculatrice
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+          
         }
 
         private void BTN1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "0" && textBox1.Text != null)  // If the textbox value is 0 or is not null then
-            {                                                   // the number that corresponds to the button that is clicked
-                textBox1.Text = "1";                            // will be subsituted in
+            if (textBox1.Text == "0" && textBox1.Text != null) 
+            {                                                   
+                textBox1.Text = "1";                            
             }
             else
-            {                                                   // Else add the button value to the existing text box value 
+            {                                                   
                 textBox1.Text = textBox1.Text + "1";
             }
         }
@@ -170,6 +171,12 @@ namespace calculatrice
             textBox1.Text = "0";
             Operation = "/";
         }
+        private void BTNMUL_Click(object sender, EventArgs e)
+        {
+            FirstNumber = Convert.ToDouble(textBox1.Text);
+            textBox1.Text = "0";
+            Operation = "*";
+        }
 
         private void BTNC_Click(object sender, EventArgs e)
         {
@@ -187,7 +194,7 @@ namespace calculatrice
 
             if (Operation == "+")
             {
-                Result = (FirstNumber + SecondNumber) + ThirdNumber;
+                Result = (FirstNumber + SecondNumber );
                 textBox1.Text = Convert.ToString(Result);
                 FirstNumber = Result;
             }
@@ -218,5 +225,7 @@ namespace calculatrice
                 }
             }
         }
+
+       
     }
 }

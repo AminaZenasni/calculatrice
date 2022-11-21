@@ -44,14 +44,16 @@
             this.BTN0 = new System.Windows.Forms.Button();
             this.EGALE = new System.Windows.Forms.Button();
             this.BTNC = new System.Windows.Forms.Button();
+            this.BTNMUL = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BTN5
             // 
-            this.BTN5.Location = new System.Drawing.Point(183, 159);
-            this.BTN5.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN5.Location = new System.Drawing.Point(104, 234);
+            this.BTN5.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.BTN5.Name = "BTN5";
-            this.BTN5.Size = new System.Drawing.Size(100, 42);
+            this.BTN5.Size = new System.Drawing.Size(79, 91);
             this.BTN5.TabIndex = 0;
             this.BTN5.Text = "5";
             this.BTN5.UseVisualStyleBackColor = true;
@@ -59,10 +61,11 @@
             // 
             // BTN4
             // 
-            this.BTN4.Location = new System.Drawing.Point(183, 110);
-            this.BTN4.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN4.Location = new System.Drawing.Point(104, 149);
+            this.BTN4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.BTN4.Name = "BTN4";
-            this.BTN4.Size = new System.Drawing.Size(100, 44);
+            this.BTN4.Size = new System.Drawing.Size(79, 78);
             this.BTN4.TabIndex = 1;
             this.BTN4.Text = "4";
             this.BTN4.UseVisualStyleBackColor = true;
@@ -70,10 +73,12 @@
             // 
             // BTN3
             // 
-            this.BTN3.Location = new System.Drawing.Point(291, 208);
-            this.BTN3.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BTN3.Location = new System.Drawing.Point(193, 335);
+            this.BTN3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.BTN3.Name = "BTN3";
-            this.BTN3.Size = new System.Drawing.Size(100, 36);
+            this.BTN3.Size = new System.Drawing.Size(69, 78);
             this.BTN3.TabIndex = 2;
             this.BTN3.Text = "3";
             this.BTN3.UseVisualStyleBackColor = true;
@@ -81,10 +86,11 @@
             // 
             // BTN1
             // 
-            this.BTN1.Location = new System.Drawing.Point(291, 110);
-            this.BTN1.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN1.Location = new System.Drawing.Point(193, 149);
+            this.BTN1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.BTN1.Name = "BTN1";
-            this.BTN1.Size = new System.Drawing.Size(100, 42);
+            this.BTN1.Size = new System.Drawing.Size(69, 78);
             this.BTN1.TabIndex = 3;
             this.BTN1.Text = "1";
             this.BTN1.UseVisualStyleBackColor = true;
@@ -92,10 +98,11 @@
             // 
             // BTN2
             // 
-            this.BTN2.Location = new System.Drawing.Point(291, 159);
-            this.BTN2.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN2.Location = new System.Drawing.Point(193, 234);
+            this.BTN2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.BTN2.Name = "BTN2";
-            this.BTN2.Size = new System.Drawing.Size(100, 42);
+            this.BTN2.Size = new System.Drawing.Size(69, 91);
             this.BTN2.TabIndex = 4;
             this.BTN2.Text = "2";
             this.BTN2.UseVisualStyleBackColor = true;
@@ -103,10 +110,11 @@
             // 
             // BTN6
             // 
-            this.BTN6.Location = new System.Drawing.Point(183, 208);
-            this.BTN6.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN6.Location = new System.Drawing.Point(104, 335);
+            this.BTN6.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.BTN6.Name = "BTN6";
-            this.BTN6.Size = new System.Drawing.Size(100, 36);
+            this.BTN6.Size = new System.Drawing.Size(75, 78);
             this.BTN6.TabIndex = 5;
             this.BTN6.Text = "6";
             this.BTN6.UseVisualStyleBackColor = true;
@@ -114,10 +122,11 @@
             // 
             // SIMA
             // 
-            this.SIMA.Location = new System.Drawing.Point(399, 167);
-            this.SIMA.Margin = new System.Windows.Forms.Padding(4);
+            this.SIMA.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SIMA.Location = new System.Drawing.Point(272, 234);
+            this.SIMA.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.SIMA.Name = "SIMA";
-            this.SIMA.Size = new System.Drawing.Size(100, 36);
+            this.SIMA.Size = new System.Drawing.Size(66, 91);
             this.SIMA.TabIndex = 6;
             this.SIMA.Text = "÷";
             this.SIMA.UseVisualStyleBackColor = true;
@@ -125,10 +134,11 @@
             // 
             // MOINS
             // 
-            this.MOINS.Location = new System.Drawing.Point(399, 118);
-            this.MOINS.Margin = new System.Windows.Forms.Padding(4);
+            this.MOINS.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MOINS.Location = new System.Drawing.Point(272, 149);
+            this.MOINS.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.MOINS.Name = "MOINS";
-            this.MOINS.Size = new System.Drawing.Size(100, 42);
+            this.MOINS.Size = new System.Drawing.Size(66, 79);
             this.MOINS.TabIndex = 7;
             this.MOINS.Text = "-";
             this.MOINS.UseVisualStyleBackColor = true;
@@ -136,10 +146,11 @@
             // 
             // PLUS
             // 
-            this.PLUS.Location = new System.Drawing.Point(399, 71);
-            this.PLUS.Margin = new System.Windows.Forms.Padding(4);
+            this.PLUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PLUS.Location = new System.Drawing.Point(272, 70);
+            this.PLUS.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.PLUS.Name = "PLUS";
-            this.PLUS.Size = new System.Drawing.Size(100, 39);
+            this.PLUS.Size = new System.Drawing.Size(66, 75);
             this.PLUS.TabIndex = 8;
             this.PLUS.Text = "+";
             this.PLUS.UseVisualStyleBackColor = true;
@@ -147,10 +158,11 @@
             // 
             // BTN7
             // 
-            this.BTN7.Location = new System.Drawing.Point(75, 110);
-            this.BTN7.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN7.Location = new System.Drawing.Point(8, 144);
+            this.BTN7.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.BTN7.Name = "BTN7";
-            this.BTN7.Size = new System.Drawing.Size(100, 44);
+            this.BTN7.Size = new System.Drawing.Size(86, 79);
             this.BTN7.TabIndex = 9;
             this.BTN7.Text = "7";
             this.BTN7.UseVisualStyleBackColor = true;
@@ -158,10 +170,11 @@
             // 
             // BTN8
             // 
-            this.BTN8.Location = new System.Drawing.Point(75, 159);
-            this.BTN8.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN8.Location = new System.Drawing.Point(8, 234);
+            this.BTN8.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.BTN8.Name = "BTN8";
-            this.BTN8.Size = new System.Drawing.Size(100, 42);
+            this.BTN8.Size = new System.Drawing.Size(86, 91);
             this.BTN8.TabIndex = 10;
             this.BTN8.Text = "8";
             this.BTN8.UseVisualStyleBackColor = true;
@@ -169,22 +182,35 @@
             // 
             // BTN9
             // 
-            this.BTN9.Location = new System.Drawing.Point(75, 208);
-            this.BTN9.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN9.Location = new System.Drawing.Point(8, 335);
+            this.BTN9.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.BTN9.Name = "BTN9";
-            this.BTN9.Size = new System.Drawing.Size(100, 36);
+            this.BTN9.Size = new System.Drawing.Size(86, 78);
             this.BTN9.TabIndex = 11;
             this.BTN9.Text = "9";
             this.BTN9.UseVisualStyleBackColor = true;
             this.BTN9.Click += new System.EventHandler(this.BTN9_Click);
             // 
-           
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(8, 23);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(334, 38);
+            this.textBox1.TabIndex = 12;
+            this.textBox1.Text = "0";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // BTN0
             // 
-            this.BTN0.Location = new System.Drawing.Point(291, 71);
-            this.BTN0.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN0.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN0.Location = new System.Drawing.Point(104, 70);
+            this.BTN0.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.BTN0.Name = "BTN0";
-            this.BTN0.Size = new System.Drawing.Size(100, 34);
+            this.BTN0.Size = new System.Drawing.Size(79, 70);
             this.BTN0.TabIndex = 13;
             this.BTN0.Text = "0";
             this.BTN0.UseVisualStyleBackColor = true;
@@ -192,39 +218,46 @@
             // 
             // EGALE
             // 
-            this.EGALE.Location = new System.Drawing.Point(399, 210);
-            this.EGALE.Margin = new System.Windows.Forms.Padding(4);
+            this.EGALE.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EGALE.Location = new System.Drawing.Point(272, 334);
+            this.EGALE.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.EGALE.Name = "EGALE";
-            this.EGALE.Size = new System.Drawing.Size(100, 34);
+            this.EGALE.Size = new System.Drawing.Size(66, 79);
             this.EGALE.TabIndex = 14;
             this.EGALE.Text = "=";
             this.EGALE.UseVisualStyleBackColor = true;
             this.EGALE.Click += new System.EventHandler(this.EGALE_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(59, 32);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(315, 20);
-            this.textBox1.TabIndex = 12;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            //
             // BTNC
             // 
-            this.BTNC.Location = new System.Drawing.Point(183, 71);
-            this.BTNC.Margin = new System.Windows.Forms.Padding(4);
+            this.BTNC.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNC.Location = new System.Drawing.Point(8, 70);
+            this.BTNC.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.BTNC.Name = "BTNC";
-            this.BTNC.Size = new System.Drawing.Size(100, 34);
+            this.BTNC.Size = new System.Drawing.Size(86, 70);
             this.BTNC.TabIndex = 15;
             this.BTNC.Text = "C";
             this.BTNC.UseVisualStyleBackColor = true;
             this.BTNC.Click += new System.EventHandler(this.BTNC_Click);
             // 
+            // BTNMUL
+            // 
+            this.BTNMUL.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNMUL.Location = new System.Drawing.Point(193, 69);
+            this.BTNMUL.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BTNMUL.Name = "BTNMUL";
+            this.BTNMUL.Size = new System.Drawing.Size(69, 71);
+            this.BTNMUL.TabIndex = 16;
+            this.BTNMUL.Text = "5";
+            this.BTNMUL.UseVisualStyleBackColor = true;
+            this.BTNMUL.Click += new System.EventHandler(this.BTNMUL_Click);
+            // 
             // calculatrice
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(511, 300);
+            this.ClientSize = new System.Drawing.Size(353, 426);
+            this.Controls.Add(this.BTNMUL);
             this.Controls.Add(this.BTNC);
             this.Controls.Add(this.EGALE);
             this.Controls.Add(this.BTN0);
@@ -241,7 +274,8 @@
             this.Controls.Add(this.BTN3);
             this.Controls.Add(this.BTN4);
             this.Controls.Add(this.BTN5);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "calculatrice";
             this.Text = "calculatrice";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -268,6 +302,7 @@
         private System.Windows.Forms.Button BTN0;
         private System.Windows.Forms.Button EGALE;
         private System.Windows.Forms.Button BTNC;
+        private System.Windows.Forms.Button BTNMUL;
     }
 }
 
